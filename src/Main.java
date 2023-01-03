@@ -85,12 +85,22 @@ public class Main {
     }  // end displayAvailableUnits()
 
     public static void information() {
-        System.out.println("information selected\n");
+        System.out.println("Units Information\n");
+        System.out.println("When is it a kilobyte instead of a kibibyte? And a MB instead a MiB?\n" +
+                "Quite often is the short answer.\n" +
+                "\n" +
+                "Have you ever wondered why your 500 GB hard drive only has about 488 gigabytes once it has been formatted? While most operating systems utilize the binary number system to express file data size, the prefixes for the multiples are based on the metric system. So even though a metric \"kilo\" equals 1000, a binary \"kilo\" equals 1024. Are you confused yet? Don't be surprised, because even the most tech-savvy people often mistake the two. Plainly put, the kilobyte is often intended as 1000 bytes, but it is really 1024 bytes.\n" +
+                "\n" +
+                "\n" +
+                "Essentially it boils down to differences between binary and decimal units and the two should be carefully separated. For example, the difference between the transfer time of a 1 gigabyte (1000 Megabytes) file is going to be significantly better than a true binary gigabyte (referred to as a gibibyte) that contains 1024 megabytes. The larger the file used for data transfer, the bigger the difference will be.\n");
+        System.out.println("International Electrotechmical Commision\nhttps://www.iec.ch/prefixes-binary-multiples\n\n");
         topMenu();
     }  // end information)
 
     public static void about() {
-        System.out.println("about selected\n");
+        System.out.println("About\n");
+        System.out.println("This is part one of a three part project.\nPart:\n\t1. Terminal based\n\t2. Graphical User Interface (GUI) based\n\t3. Web-based Application");
+        System.out.println("\n\n");
         topMenu();
     }  // end about()
 }  // end Main{}
